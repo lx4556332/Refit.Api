@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit.Client", "Refit.Client\Refit.Client.csproj", "{76D5A18A-0934-4191-BFAA-33F850B424F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit.Server", "Refit.Server\Refit.Server.csproj", "{F602815B-5E86-484F-AEF7-A5288E628EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D5A18A-0934-4191-BFAA-33F850B424F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D5A18A-0934-4191-BFAA-33F850B424F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D5A18A-0934-4191-BFAA-33F850B424F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D5A18A-0934-4191-BFAA-33F850B424F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F602815B-5E86-484F-AEF7-A5288E628EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F602815B-5E86-484F-AEF7-A5288E628EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F602815B-5E86-484F-AEF7-A5288E628EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F602815B-5E86-484F-AEF7-A5288E628EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A98A74-EE63-4CED-882A-772C7DE20224}
+	EndGlobalSection
+EndGlobal
