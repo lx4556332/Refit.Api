@@ -1,3 +1,4 @@
+using Com.Ctrip.Framework.Apollo;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -18,6 +19,13 @@ namespace Refit.Server
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+              .ConfigureAppConfiguration((hostingContext, builder) =>
+              {
+                  builder
+                  .AddApollo(builder.Build().GetSection("apollo"))
+                  .AddDefault()
+                  .AddNamespace("TEST1.Shared");
+              })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

@@ -31,7 +31,8 @@ namespace Refit.Server
               c.BaseAddress = new Uri(Configuration["DependencyServices:DmsAfterSales"]);
               c.Timeout = TimeSpan.FromMilliseconds(Configuration.GetValue<int>("DependencyServices:ServiceTimeOutMs"));
           });
-
+            var AppKey=Configuration["JPush.AppKey"];
+            Console.WriteLine($"AppKey:{AppKey}");
             services.AddControllers();
         }
 
